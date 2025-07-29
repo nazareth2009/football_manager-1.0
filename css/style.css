@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   background-color: #8dc63f;
+  max-width: auto;
 }
 
 .wrapper {
@@ -9,6 +10,7 @@ body {
   margin: auto;
   background-color: #fff;
   padding: 0 20px;
+  box-sizing: border-box;
 }
 
 
@@ -35,6 +37,7 @@ color: #39930d;
  font-size: 44px;
 color: #39930d;
 font-weight: bold;
+display: block;
 }
 
 .logo-text i {
@@ -58,6 +61,7 @@ font-size: 22px;
 color: #39930d;
 text-align: right;
 text-decoration: none;
+display: block;
 }
 
 .contact i {
@@ -107,8 +111,8 @@ color: #343434;
     font-size: 18px;
     color: #fff;
     font-family: "Arial";
-    padding: 8px 10px;
-    margin: 0 0 10px 0;
+    padding: 15px;
+    margin: 19px;
 }
 
 .sidebar ul {
@@ -117,9 +121,8 @@ color: #343434;
     text-decoration: underline;
     text-transform: uppercase;
     color: #39930d;
-    padding: 0;
     list-style: none;
-    margin: 0;
+    margin: -5px;
 }
 
 .sidebar li {
@@ -135,8 +138,8 @@ color: #343434;
 }
 
 footer {
-    margin: 0 -15px;
      background-color: #39930d;
+     margin:-20px;
 }
 
 
@@ -144,7 +147,7 @@ footer p {
   font-size: 14px;
   color: #fff;
   text-align: left;
-  padding: 10px;
-  margin: 0;
+  padding: 30px;
+  margin: -5px;
 }
 
