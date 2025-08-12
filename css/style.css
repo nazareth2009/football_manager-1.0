@@ -83,7 +83,6 @@ body {
   width: 100%;
   height: auto;
   display: block;
-  margin-bottom: 20px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -95,6 +94,7 @@ body {
 .main-layout {
   display: flex;
   padding:  0  0 40px;
+  column-gap: 38px;
 }
 
 .content {
@@ -105,7 +105,6 @@ body {
   font-size: 24px;
   color: #39930d;
   font-weight: bold;
-  margin-top: 0;
 }
 
 .content p {
@@ -121,19 +120,15 @@ body {
   padding: 5px;
 }
 
-.sidebar {
-   
-   
-}
+
 
 .sidebar h2 {
-   
+  min-width: 300px;
   background-color: #39930d;
   font-size: 18px;
   color: #fff;
   font-family: "Arial";
   padding: 15px;
-  margin: 19px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -152,7 +147,7 @@ body {
 }
 
 .sidebar li {
-  margin: 5px 0;
+  margin: 0 -20px ;
 }
 
 .sidebar a {
